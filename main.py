@@ -4,7 +4,7 @@ from kivy.core.audio import SoundLoader
 
 class A(App):
 	def build(self):
-		self.sound = SoundLoader.load('app.mp3')
+		self.sound = SoundLoader.load('yoursoundfile.mp3')
 		
 		return Button(text='play',on_release=self.splay)
 	def splay(self,obj):
